@@ -1,0 +1,139 @@
+.logocorner {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  font-size: 55px;
+  color: rgb(165, 34, 34);
+  text-decoration-line: overline;
+  text-decoration-thickness:5px;
+  text-decoration-color: rgb(196, 71, 71);
+  
+  
+}
+body{
+  background-color: rgb(239, 198, 111);
+}
+
+* {
+  padding-left: 2px;
+  margin: 0;
+  /* I usually use this too: */
+  box-sizing: border-box;
+}
+html, body {
+  
+  overflow-x:hidden;
+}
+
+/* body {
+    background-image: url("wallpaperflare.com_wallpaper (4).jpg");
+    background-color: #cccccc;
+    background-position: -300% 100% ;
+    background-repeat: no-repeat;
+
+   } */
+#logoimage {
+  max-height: 100px;
+  padding-left: 1352px;
+  padding-top: 0px;
+  border-top: 0cm;
+  margin-top: 0%;
+  
+}
+
+
+/* .tanu{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    } */
+
+.imageplusquote {
+  padding-left: 400px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+
+.imageplusquote div {
+  padding: 10px;
+  /* border-left: 100px; */
+  /* margin-left: 20px; */
+  /* border: 1px #ccc solid;*/
+}
+
+/* .tanu > div {
+        background-color: #f1f1f1;
+       
+        padding: 10px;
+        font-size: 30px;
+      } */
+
+/* divisions in ithe image plus quote area */
+#thatimage {
+  max-height: 200px;
+}
+
+#imagediv {
+  flex: 1;
+}
+
+#thatquote {
+  flex: 1.5;
+  padding-left: 35px;
+  font-family: cursive;
+}
+
+#fan {
+  flex: 0;
+}
+
+
+
+.searchbar {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+  font-size: 20px;
+}
+#queryinout{
+  text-align: center;
+  border-radius: 3px;
+  color: brown;
+  background-color: blueviolet;
+}
+input#queryinput {
+  border-radius: 5px;
+  background:white ;
+  /* text-area: blue;
+  text-area: b; */
+}
+#submitbutton{
+  border-radius: 5px;
+  text-align: center;
+  color: rgb(11, 66, 48);
+}
+.recommendation{
+ display: flex;
+ flex-direction: column;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.recommendation a{
+ text-decoration: none;
+ color: rgb(188, 35, 119);
+ text-align: center;
+
+}
+ /* a[target="_blank"]{
+  text-shadow: none;
+
+} */
+.aboutsite{
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(75, 45, 4);
+}
+.article{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  text-align: center;
+}
